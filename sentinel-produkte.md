@@ -24,6 +24,8 @@ Wenn ich die Bedingungen richtig verstehe, dürfen wir die Originaldaten verlink
 
 ## Die Datensätze: Produkte
 
+Die nützlichste ESA-Seite: https://scihub.copernicus.eu/userguide/
+
 Die Satelliten haben meist mehrere Instrumente an Bord. Sie tasten die Erde in großen Streifen ab, während der Satellit sie überfliegt, und liefern verschiedene Datensätze - die so genannten **Produkte**. Diese Produkte gibt es in verschiedenen Verarbeitungszuständen ("Level")
 
 ### Produkt-"Level"
