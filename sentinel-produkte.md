@@ -9,7 +9,18 @@ Daten liefert - und bessere.
 
 ## ESA verstehen
 
-Ubedingt einen Blick in das [Abkürzungsverzeichnis](https://github.com/untergeekDE/Copernicus-Satellitendaten-nutzen/blob/master/SUHET%20Acronyms.pdf) werfen. 
+Ubedingt einen Blick in das [Abkürzungsverzeichnis](https://github.com/untergeekDE/Copernicus-Satellitendaten-nutzen/blob/master/SUHET%20Acronyms.pdf) werfen.
+
+## Nutzungsbedingungen
+
+vergleichbar einer CC-BY-Lizenz - weit gehende Verarbeitungs- und Nutzungsrechte unter korrekter Attribution: 
+
+**"contains Copernicus data (year of reception)"**
+Für uns: **"Basiert auf Copernicus-Satellitendaten (2018)"**
+
+[PDF mit den Bedingungen](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/TC_Sentinel_Data_31072014.pdf)
+
+Wenn ich die Bedingungen richtig verstehe, dürfen wir die Originaldaten verlinken, aber nicht kopieren. 
 
 ## Die Datensätze: Produkte
 
