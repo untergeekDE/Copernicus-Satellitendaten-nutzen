@@ -15,12 +15,10 @@ Ubedingt einen Blick in das [Abkürzungsverzeichnis](https://github.com/untergee
 
 vergleichbar einer CC-BY-Lizenz - weit gehende Verarbeitungs- und Nutzungsrechte unter korrekter Attribution: 
 
-**"contains Copernicus data (year of reception)"**
-Für uns: **"Basiert auf Copernicus-Satellitendaten (2018)"**
+- Originaldaten: mit Copyright-Zeichen - so: **"©Copernicus data (year of reception)"** (Dann dürfen wir sie auch teilen.)
+- Abgeleitete Werke: **"contains Copernicus data (year of reception)"**, für uns also: **"Basiert auf Copernicus-Satellitendaten (2016-2018)"**
 
 [PDF mit den Bedingungen](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/TC_Sentinel_Data_31072014.pdf)
-
-Wenn ich die Bedingungen richtig verstehe, dürfen wir die Originaldaten verlinken, aber nicht kopieren. Bzw. 
 
 ## Die Datensätze: Produkte
 
