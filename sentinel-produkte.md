@@ -20,7 +20,7 @@ Für uns: **"Basiert auf Copernicus-Satellitendaten (2018)"**
 
 [PDF mit den Bedingungen](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/TC_Sentinel_Data_31072014.pdf)
 
-Wenn ich die Bedingungen richtig verstehe, dürfen wir die Originaldaten verlinken, aber nicht kopieren. 
+Wenn ich die Bedingungen richtig verstehe, dürfen wir die Originaldaten verlinken, aber nicht kopieren. Bzw. 
 
 ## Die Datensätze: Produkte
 
