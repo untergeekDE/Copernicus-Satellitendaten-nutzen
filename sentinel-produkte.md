@@ -54,6 +54,8 @@ Gute Einführung: https://github.com/PatrickStotz/mapping_101
 
 ### Tutorial
 
+* [Schritt-für-Schritt-Anleitung für einen Vorher-Nachher-Vergleich](https://github.com/untergeekDE/Copernicus-Satellitendaten-nutzen/blob/master/vorher-nachher-SNAP.md)
+
 Netterweise hat EUMETSAT Demo-Videos erstellt, die bei den ersten Schritten helfen - anhand des Beispiel-Produkts "Meerestemperatur-Daten": 
 
 * [Video 1: SNAP nutzen](https://www.youtube.com/watch?v=l4oeRYj6_5U)
