@@ -52,6 +52,8 @@ im anderen Fenster angewählt.
 (z.B. den Edersee oder den Flughafen). Hin- und Herklicken zwischen den Fenster-Tabs schaltet zwischen Vorher-Nachher hin und her. 
 1. In beiden Fenstern nacheinander: Rechtsklick auf das Satellitenbild und *"Export View as Image"* auswählen.
 
+![Rhein-Main-Gebiet August 2018 - contains Copernicus data](https://raw.githubusercontent.com/untergeekDE/Copernicus-Satellitendaten-nutzen/master/ffm-2018.png)
+
 ### Bonuslevel: Vegetationskarte erstellen
 1. Im Menü *"Optical"* den Unterpunkt *"Thematic Land Processing/Vegetation Radiometric Index/NDVI Processor"* aufrufen. Dieses Programm errechnet aus den Spektren im sichtbaren und nicht sichtbaren Licht einen Vegetations-Index für jedes Pixel. 
 1. Das Tab *"Parameters"* anwählen und für *Resampling* "Highest Resolution" einstellen - da die Daten der Infrarotkamera nur mit einer 60x60m-Auflösung vorliegen, müssen erst Zwischenwerte für die fehlenden Pixel errechnet werden, um die Bilder übereinanderlegen zu können). Prozessor starten.
