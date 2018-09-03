@@ -30,7 +30,7 @@ unter "Product Type" die Auswahl *"S2MSI1C"*.
 1. Damit kann man dann auch das "Product Type"-Kürzel entschlüsseln: **"S2..."=Sentinel-2-Satellit** 
 (es gibt übrigens zwei davon, die sich abwechseln); **"...MSI..."=Multi-Spectral Instrument, also: Spektralkamera**, 
 "...1C" steht für den **"Product Level"**, den Verarbeitungsgrad der Daten. Die 1C-Daten sind Kamerabild-Geodaten, 
-an das Standard-Erdmodell WGS84 angepasst, die sich ohne Probleme in SNAP und auch in QGIS laden lassen - kurz: **Satellitenfotos**. 
+an das Standard-Erdmodell WGS84 angepasst, die sich ohne Probleme in SNAP und auch in QGIS laden lassen - kurz: **Satellitenfotos**. Die reichen für unsere Zwecke aus - in der Regel wird man zu den "Level-2"-Daten greifen, die von ESA/Eumetsat nachbearbeitet und aufbereitet sind.
 1. Im Open Data Hub ein möglichst kleines Quadrat um Frankfurt (oder einen anderen Ort) ziehen und auf die "Suchen"-Lupe klicken. 
 1. Einen Treffer auswählen, durch einen Klick auf das Augen-Symbol in der Vorschau prüfen und - 
 falls interessant und wolkenfrei - herunterladen. ACHTUNG: Dateien sind jeweils zwischen 800MB und 1,2GB groß - 
