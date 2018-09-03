@@ -1,7 +1,27 @@
 ## Vorher-Nachher-Bilder generieren
 
-1. Die Sentinel-Karten-Software SNAP installieren (Installationsdatei liegt zum Kopieren im Software-Ordner; 
-geht nur mit Admin-Rechten)
+**Die Aufgabe:** Einen Vorher-Nachher-Vergleich für eine Region erstellen, z.B. um die Auswirkungen des Hitzesommers zu zeigen (oder die Folgen einer Katastrophe). 
+
+![Vorher-Nachher Rhein-Main-Region](https://raw.githubusercontent.com/untergeekDE/Copernicus-Satellitendaten-nutzen/master/vorher-nachher-snapshot.PNG "Vorher-Nachher-Vergleich - contains Copernicus data")
+
+*Eine Vorher-Nachher-Visualisierung des Rhein-Main-Gebiets mit zusätzlichen Vegetationsdaten [Link zur Live-Version](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ea327c8a-ad1c-11e8-9dba-0edaf8f81e27)*
+
+Dafür nutzen wir Bilder des ["Sentinel-2"-Satelliten der ESA/EU](https://de.wikipedia.org/wiki/Sentinel-2), der seit 2016 Daten liefert. Seine Multispektral-Kamera liefert Bilder mit einer Auflösung von 10x10m pro Pixel (im sichtbaren Bereich; sonst z.T. etwas geringer). Die "Sentinel"-Daten kann man - wie alle des ["Copernicus"-Programms der EU](http://copernicus.eu/) - kostenlos nutzen, allerdings ist es etwas umständlich, an sie zu kommen. 
+
+Dieses Tutorial hilft bei den ersten Schritten. 
+
+### Schummeln: Zielgebiet und Datum finden
+
+Das slowenische Startup Sinergise bietet einen Dienst an, auf dem man die Satellitenbilder ohne technischen Aufwand betrachten kann - den [Sentinel Hub Playground](https://apps.sentinel-hub.com/sentinel-playground/), die Demo des kommerziellen Angebots über API. Hier fangen wir an: 
+
+1. Den [Sentinel Hub Playground](https://apps.sentinel-hub.com/sentinel-playground/) aufrufen.
+1. Ein interessantes Zielgebiet aussuchen. (Wir bleiben erst einmal bei der Standardeinstellung: "Natural bands", das sichtbare Licht, so wie es unser Auge auch wahrnehmen würde.)
+1. Für das Zielgebiet zwischen verschiedenen Aufnahmedaten hin- und herschalten - über das Kalender-Symbol. Es ist leider manchmal nicht ganz einfach, eine Aufnahme ohne Wolken zu finden - und dann sieht logischerweise auch der Satellit nichts. 
+1. Die Daten für "vorher" und "nachher" notieren. 
+
+### Die Satelliten-Daten suchen, ziehen, verarbeiten
+
+1. Die [kostenlose Sentinel-Karten-Software SNAP](http://step.esa.int/main/download/) installieren (die gibt es für Windows, Mac und angeblich auch Linux)
 1. Das Sentinel-Data-Hub ansteuern: https://scihub.copernicus.eu/ - Open Data Hub ansteuern und eigenes Konto anlegen.
 1. Der möglicherweise schwierigste Schritt: Geeignete Daten finden. Dazu in den Einstellungen auswählen:
 *Datumsbereich* - am besten ein ganzer Monat - Häkchen bei *"Mission: Sentinel-2"* (das ist der mit der Kamera), 
@@ -33,10 +53,16 @@ im anderen Fenster angewählt.
 1. In beiden Fenstern nacheinander: Rechtsklick auf das Satellitenbild und *"Export View as Image"* auswählen.
 
 ### Bonuslevel: Vegetationskarte erstellen
-1. Im Menü "Optical" den Unterpunkt *"Thematic Land Processing/Vegetation Radiometric Index/GNDVI Processor"* aufrufen. 
-Dieses Programm errechnet aus den Spektren im sichtbaren und nicht sichtbaren Licht einen Vegetations-Index für jedes Pixel. 
-1. Bevor wir den Prozessor starten können, müssen wir auf dem *"Processing Parameters"*-Tab einen Resampling-Modus auswählen, 
-der die Bilddaten vereinheitlicht - am besten *"Highest Resolution"*. Dann den Prozessor starten.
-1. Wieder zum interessanten Punkt zoomenn (Edersee etc.), A/B-Vergleich zum Ausgangsbild, ggf. Export der Vegetations-Karte über Rechtsklick. 
-1. Die Erklärung für den "GNDVI" und den Unterschied zum TNDVI und NDVI aus der SNAP-Hilfe ziehen. 
-Klüger geworden sein. :) 
+1. Im Menü *"Optical"* den Unterpunkt *"Thematic Land Processing/Vegetation Radiometric Index/NDVI Processor"* aufrufen. Dieses Programm errechnet aus den Spektren im sichtbaren und nicht sichtbaren Licht einen Vegetations-Index für jedes Pixel. 
+1. Das Tab *"Parameters"* anwählen und für *Resampling* "Highest Resolution" einstellen - da die Daten der Infrarotkamera nur mit einer 60x60m-Auflösung vorliegen, müssen erst Zwischenwerte für die fehlenden Pixel errechnet werden, um die Bilder übereinanderlegen zu können). Prozessor starten.
+1. Prozessor-Fenster schließen, das neu erstellte Produkt im Explorer öffnen und das Band *"nvdi"* anzeigen lassen. 
+1. Die Erklärung für den NDVI und den Unterschied zum TNDVI und GNDVI aus der SNAP-Hilfe ziehen. Wer Zeit hat: ein wenig wissenschaftliche Literatur über den NVDI googeln. 
+1. Klüger geworden sein. :)
+1. Colour Management öffnen - und den MERIS-Veg-Index laden (Braun- und Grüntöne).
+1. Gesunde Vegetation hat einen Index von irgendwo zwischen 0,2 und 1,0 - je nach Bewuchs. Den untersten (braunen) Schieber im Colour-Management-Histogramm auf 0,3 schieben, dann anklicken und “None” auswählen - so werden nur Werte von 0,3 als grüne Pflanze angezeigt 
+1. Wieder zum interessanten Punkt zoomen, A/B-Vergleich zum Ausgangsbild, Export der Vegetations-Karte über Rechtsklick als PNG. 
+1. Import der Echtfarben- und der Vegetationskarte in den Photoshop, übereinanderlegen, NDVI-Index auf 70% Transparenz. 
+ "GNDVI" und den Unterschied zum TNDVI und NDVI aus der SNAP-Hilfe ziehen. 
+
+### Challenge mastered!
+![Satellitenfoto Rhein-Main August 2018 - contains Copernicus data](https://raw.githubusercontent.com/untergeekDE/Copernicus-Satellitendaten-nutzen/master/ffm-2018-composite.png)
