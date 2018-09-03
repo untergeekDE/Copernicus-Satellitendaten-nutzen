@@ -63,8 +63,8 @@ im anderen Fenster angewählt.
 1. Colour Management öffnen - und den MERIS-Veg-Index laden (Braun- und Grüntöne).
 1. Gesunde Vegetation hat einen Index von irgendwo zwischen 0,2 und 1,0 - je nach Bewuchs. Den untersten (braunen) Schieber im Colour-Management-Histogramm auf 0,3 schieben, dann anklicken und “None” auswählen - so werden nur Werte von 0,3 als grüne Pflanze angezeigt 
 1. Wieder zum interessanten Punkt zoomen, A/B-Vergleich zum Ausgangsbild, Export der Vegetations-Karte über Rechtsklick als PNG. 
-1. Import der Echtfarben- und der Vegetationskarte in den Photoshop, übereinanderlegen, NDVI-Index auf 70% Transparenz. 
- "GNDVI" und den Unterschied zum TNDVI und NDVI aus der SNAP-Hilfe ziehen. 
+1. Import der Echtfarben- und der Vegetationskarte in den Photoshop, übereinanderlegen, NDVI-Index auf 70% Transparenz. Erstelltes Bild als PNG abspeichern. 
+
 
 ### Challenge mastered!
 ![Satellitenfoto Rhein-Main August 2018 - contains Copernicus data](https://raw.githubusercontent.com/untergeekDE/Copernicus-Satellitendaten-nutzen/master/ffm-2018-composite.png)
