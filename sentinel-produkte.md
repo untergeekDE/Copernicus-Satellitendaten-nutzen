@@ -157,3 +157,29 @@ Ausgewertete Daten über Atmosphärendaten - Level 2 (liegen mit 5 Tagen Verzög
 - SO2 Stickoxid
 
 ## Level-2-Produkte
+
+# Sentinel-4
+
+Luftgüte-, Atmosphären- und Klima-Sensoren (O3, Stickoxid)...
+
+[Sentinel-4-Basisinfo der ESA](https://sentinel.esa.int/web/sentinel/missions/sentinel-4)
+
+...muss noch ausgewertet werden. Ist der Satellit überhaupt schon in der Luft??? Zu fliegen scheint ihn EUMETSAT. 
+
+# Sentinel-5
+
+Ein hochauflösendes fliegendes Spektrometer. Soweit ich es sehe, noch nicht gestartet. 
+
+[Sentinel-5-Basisinfo der ESA](https://sentinel.esa.int/web/sentinel/missions/sentinel-5)
+
+# Sentinel-5P (Precursor)
+
+Ein Satellit zur Atmosphären-Beobachtung; ein Radar zur Wolkenbeobachtung soll erlauben, Gebiete auszumaskieren, die von Wolken verdeckt sind. 2017 gestartet, geht erst jetzt allmählich in den Regelbetrieb. 
+
+[Sentinel-5P-Basisinfo der ESA](https://sentinel.esa.int/web/sentinel/missions/sentinel-5p)
+
+# Sentinel-6
+
+Präzisions-Altimeter (Höhenmesser) zur Beobachtung der Meere: Erlaubt genaueste Messung der Meeresspiegel. Scheint noch nicht in Betrieb zu sein. 
+
+[Sentinel-6-Basisinfo bei EUMETSAT](https://www.eumetsat.int/website/home/Satellites/FutureSatellites/CopernicusSatellites/Sentinel6JasonCS/index.html)
