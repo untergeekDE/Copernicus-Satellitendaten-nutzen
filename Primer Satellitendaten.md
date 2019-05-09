@@ -21,13 +21,6 @@ die Daten im gleichen Zeitraum etwa 10 Mrd. an direktem volkswirtschaftlichem Nu
 Daten zur Verbesserung der Gesundheit oder zur Bekämpfung von Problemen nutzen - und dass außerdem ein "Downstream"-Nutzen in Höhe
 von weiteren 3,5 Mrd. Euro entsteht - durch Innovationen, die im Umfeld des Satellitenprogramms möglich und nötig wurden. 
 
-## Beispiele für Anwendungsfälle 
-
-- Luftverschmutzungs-Prognosekarten des ECMWF
-- Eine Warn-App für Asthmatiker: wann besser nicht nach Peking (Berlin, Paris, London...) fahren?
-- Eine UV-Warnkarte (des australischen Cancer Council Victoriy)
-- Die Luftqualitäts-Vorhersage bei Euronews
-
 ## ESA und Datenjournalismus: it's complicated
 
 Um es ganz klar zu sagen: **Die ESA hat datenjournalistische Projekte bis jetzt nicht wirklich auf dem Schirm**.
