@@ -49,7 +49,7 @@ Gute Einführung: https://github.com/PatrickStotz/mapping_101
 
 - wohl in der Regel im Datenformat NetCDF (ein Datenformat, das bei Meteorologen üblich ist)
 - Die Dateien sind in der Regel mehrere GB groß
-- Beim ECMWF gibt es auch aufgearbeitete Daten, u.a. Prognosen - allerdings kann man die nicht einfach herunterladen, sondern muss sich einen Downloader als Python-Skript zusammenklicken. 
+- Beim ECMWF gibt es auch aufgearbeitete Daten, u.a. Prognosen - allerdings kann man die nicht einfach herunterladen, sondern muss sich einen Downloader als Python-Skript zusammenklicken. Siehe unten: ECMWF
 - In der Regel: Anmeldung erforderlich. 
 
 ### Tutorial
@@ -60,6 +60,26 @@ Netterweise hat EUMETSAT Demo-Videos erstellt, die bei den ersten Schritten helf
 
 * [Video 1: SNAP nutzen](https://www.youtube.com/watch?v=l4oeRYj6_5U)
 * [Video 2: Eine Seetemperatur-Karte erstellen](https://www.youtube.com/watch?reload=9&v=lKyUeN3uS0Q)
+
+# Aufgearbeitete Daten
+
+Partner nutzen, um Daten vorbereitet zu bekommen?
+
+## Sentinel Hub
+
+Ein slowenisches Startup namens Sinergise, das mit dem ["Sentinel Hub Playground](https://apps.sentinel-hub.com/sentinel-playground/) ein einfaches Tool zur Nutzung von (vor allem) Sentinel-2-Daten gebaut hat. 
+
+## ECMWF
+
+Unterbehörde der ESA in Großbritannien, die Wetterdaten - und im Katastrophenfall: Missionsdaten z.B. von Hafenanlagen und brennenden Wäldern - liefern soll. 
+
+Die ECMWF tut interessante Dinge - und man kommt an viele Daten über eine API (bzw. über ein Python-Downloader-Skript, das man sich zusammenklicken muss.)
+
+Viel Raum für praktische Erfahrungen!
+
+Erstkontakt: die dortige Pressestelle. Ist zwar prinzipiell auch im Mindset "Wir liefern euch schöne bunte Bildchen"-Mindset unterwegs, kann aber im Prinzip schon mal was mit dem Wort Datenjournalismus anfangen. 
+
+* [Die FAQ zur Web-API der ECMWF](https://software.ecmwf.int/wiki/display/WEBAPI/Web-API+FAQ)
 
 # Die Satelliten und ihre Produkte
 
