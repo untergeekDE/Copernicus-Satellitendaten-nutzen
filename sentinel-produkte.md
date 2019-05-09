@@ -115,6 +115,8 @@ Sentinel-3 ist:
 - ein Bodenradar
 - weil der Satellit auch aufs Infrarotspektrum schaut, ein fliegendes Thermometer. 
 
+Wenn ich es richtig verstehe, wird der Satellit zwar vom ESOC geflogen und gemanaged, für die Meeresdaten (also alles, was OCLI und SLSTI über wasser liefern) ist irritierenderweise [EUMETSAT zuständig].(https://www.eumetsat.int/website/home/Copernicus/Sentinels/index.html)
+
 Datensätze: 
 - Wärmedaten, 
 - Oberflächentemperatur
