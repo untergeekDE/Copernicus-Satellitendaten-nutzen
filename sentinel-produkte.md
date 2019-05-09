@@ -75,6 +75,17 @@ Unterbehörde der ESA in Großbritannien, die Wetterdaten - und im Katastrophenf
 
 Die ECMWF tut interessante Dinge - und man kommt an viele Daten über eine API (bzw. über ein Python-Downloader-Skript, das man sich zusammenklicken muss.)
 
+### Beispiele für Anwendungsfälle 
+
+Im Sommer 2018 aus einer Präsentation des ECMWF beim Wissenschaftsjournalismus-Tag in Darmstadt herausgelauscht. 
+
+- [Luftverschmutzungs-Prognosekarten des ECMWF (PDF)](https://www.ecmwf.int/sites/default/files/elibrary/2005/15822-air-quality-forecasting.pdf)
+- [Eine Warn-App für Allergiker und Asthmatiker](https://atmosphere.copernicus.eu/pioneering-personalised-allergy-medicine)
+- [Vorhersage-App für Wetter, Luftgüte (Ozon etc.), Luftdruck etc.](https://pflotsh.com/en/ecmwf.html)
+- [Eine UV-Warnkarte (des australischen Cancer Council Victoria)](https://atmosphere.copernicus.eu/sunsmart)
+- [Die Luftqualitäts-Vorhersage bei Euronews](https://de.euronews.com/wetter/copernicus-air-quality-index)
+
+
 Viel Raum für praktische Erfahrungen!
 
 Erstkontakt: die dortige Pressestelle. Ist zwar prinzipiell auch im Mindset "Wir liefern euch schöne bunte Bildchen"-Mindset unterwegs, kann aber im Prinzip schon mal was mit dem Wort Datenjournalismus anfangen. 
