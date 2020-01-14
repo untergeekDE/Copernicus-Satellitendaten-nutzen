@@ -7,6 +7,8 @@ und Sentinel-5P. Die ESA schießt aus Sicherheitsgründen und der besseren Abdec
 Satelliten einer Klasse ins All, zuletzt Sentinel-3B. Die beiden sind aus Nutzersicht wie ein Satellit, der häufiger
 Daten liefert - und bessere. 
 
+Sentinel-2 ist der Satellit, der die derzeit hochauflösendsten offenen Daten liefert - für die optischen Bänder (also: für das, was unsere Augen sehen) mit einer Auflösung von 10m; ein Pixel im Bild entspricht also einer Fläche von 10x10m. 
+
 ## ESA verstehen
 
 Ubedingt einen Blick in das [Abkürzungsverzeichnis](https://github.com/untergeekDE/Copernicus-Satellitendaten-nutzen/blob/master/SUHET%20Acronyms.pdf) werfen.
@@ -160,7 +162,11 @@ Sentinel-3 besteht aus 2 Systemen:
 - SLSTI (Sea and Land Surface Temperature Radiometer), einem Bodenradar https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-slstr/instrument/description
 
 ####Level-1-Daten
+
+(tbd)
 ####Level-2-Daten
+
+(tbd) 
 ##### 
 #####
 #####
