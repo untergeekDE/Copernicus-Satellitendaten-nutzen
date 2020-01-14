@@ -43,7 +43,7 @@ Die Sentinel-Satelliten unterscheiden sich sehr in Zielsetzung und Einsatzfeld, 
 * Sentinel-5P (geflogen vom ESOC): Satellit zur Atmosphärenbeobachtung
 * _Sentinel-6 (geflogen von EUMETSAT): Altimeter zur Präzisionsmessung von Meerespegeln; noch nicht in Betrieb._ 
 
-Etwas ausführlichere [Übersicht über die Satelliten und ihre Produkte hier](../blob/master/sentinel-produkte.md).
+Etwas ausführlichere [Übersicht über die Satelliten und ihre Produkte hier](../master/sentinel-produkte.md).
 
 ## Das AKÜVERZ
 
