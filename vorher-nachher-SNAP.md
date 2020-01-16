@@ -59,7 +59,7 @@ im anderen Fenster angewählt.
 1. Das Tab *"Parameters"* anwählen und für *Resampling* "Highest Resolution" einstellen - da die Daten der Infrarotkamera nur mit einer 60x60m-Auflösung vorliegen, müssen erst Zwischenwerte für die fehlenden Pixel errechnet werden, um die Bilder übereinanderlegen zu können). Prozessor starten.
 1. Prozessor-Fenster schließen, das neu erstellte Produkt im Explorer öffnen und das Band *"nvdi"* anzeigen lassen. 
 1. Die Erklärung für den NDVI und den Unterschied zum TNDVI und GNDVI aus der SNAP-Hilfe ziehen. Wer Zeit hat: ein wenig wissenschaftliche Literatur über den NVDI googeln. 
-1. Klüger geworden sein. :)
+1. Klüger geworden sein. :) [Gute, kompakte Einführung hier bei GIS Geography.](https://gisgeography.com/ndvi-normalized-difference-vegetation-index/)
 1. Colour Management öffnen - und den MERIS-Veg-Index laden (Braun- und Grüntöne).
 1. Gesunde Vegetation hat einen Index von irgendwo zwischen 0,2 und 1,0 - je nach Bewuchs. Den untersten (braunen) Schieber im Colour-Management-Histogramm auf 0,3 schieben, dann anklicken und “None” auswählen - so werden nur Werte von 0,3 als grüne Pflanze angezeigt 
 1. Wieder zum interessanten Punkt zoomen, A/B-Vergleich zum Ausgangsbild, Export der Vegetations-Karte über Rechtsklick als PNG. 
