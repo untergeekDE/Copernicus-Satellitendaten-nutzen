@@ -101,6 +101,12 @@ Die Level-0-Daten sind für uns nicht nutzbar, die Level-1-Daten müssen mit Vor
 Hier der Versuch einer Übersicht, was die Satelliten liefern und wozu man sie einsetzen könnte: 
 
 ## Sentinel-1
+
+### Steckbrief: 
+
+* Bodenradar
+* Auflösung: 5x5m pro Pixel
+* Überflughäufigkeit: ca. alle 2-3 Tage
  
 Sentinel-1 ist ein fliegendes Bodenradar. 
 
@@ -126,6 +132,12 @@ Die Meeresdaten - mehr: https://sentinels.copernicus.eu/web/sentinel/user-guides
 - Surface Radial Velocity (RVL)
 
 ## Sentinel-2
+
+### Steckbrief
+
+* Optische Sensoren, sichtbar und Infrarot
+* Auflösung 10x10m pro Pixel
+* Überflughäufigkeit etwa 1x alle Woche
 
 Eine fliegende Kamera, die mit zwei Kamerasystemen verschiedene Lichtspektren beobachtet - gerade die, die das menschliche Auge nicht sehen kann, und da wird's interessant - weil man sie für Umweltanalyse einsetzen kann: Vegetation, Boden, Bodenschätze, Ernte, Wasser - ganz besonders auch Verkehr auf dem Wasser. 
 
